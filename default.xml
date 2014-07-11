@@ -619,6 +619,10 @@
 
   <!-- extras -->
   <project path="device/moto/wingray" name="Schischu/android_device_moto_wingray" remote="Schischu" revision="cm-11.0" />
+  <project path="vendor/broadcom/wingray" name="Schischu/android_vendor_broadcom_wingray" remote="Schischu" revision="android-4.3" />
+  <project path="vendor/moto/wingray" name="Schischu/android_vendor_moto_wingray" remote="Schischu" revision="android-4.3" />
+  <project path="vendor/nvidia/wingray" name="Schischu/android_vendor_nvidia_wingray" remote="Schischu" revision="android-4.3" />
+  <project path="device/moto/stingray-kernel" name="Schischu/xoom-ElementalX" remote="Schischu" revision="master" />
 
   <project path="platform_manifest" name="matt4321/platform_manifest" remote="matt4321" revision="kitkat" />
 </manifest>
