@@ -21,7 +21,7 @@
            fetch="https://github.com/Schischu" />
 
   <remote name="matt4321"
-           fetch="https://github.com/" />
+           fetch="https://github.com/matt4321" />
 
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
@@ -622,5 +622,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
-  <project path="platform_manifest" name="matt4321/platform_manifest" remote="matt4321" revision="kitkat" />
+  <project path="platform_manifest" name="matt4321/platform_manifest" remote="github" revision="kitkat" />
 </manifest>
