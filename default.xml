@@ -12,6 +12,9 @@
   <remote  name="matt4321"
            fetch="https://github.com/" />
 
+  <remote  name="Schischu"
+           fetch="https://github.com/" />
+
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
