@@ -4,6 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+           
+  <remote  name="matt4321"
+           fetch="https://github.com/"
+           review="gerrit.aokp.co" />
 
   <remote  name="aokp"
            fetch="https://github.com/"
@@ -20,8 +24,6 @@
   <remote name="schischu"
            fetch="https://github.com/Schischu" />
 
-  <remote name="matt4321"
-          fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
