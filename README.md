@@ -12,7 +12,7 @@ Initializing Repository
 
 Init core trees without any device/kernel/vendor :
 
-    $ repo init -u https://github.com/AOKP/platform_manifest.git -b kitkat
+    $ repo init -u https://github.com/matt4321/platform_manifest.git -b kitkat
 
 Init repo with all devices, kernels and vendors supported by AOKP :
 
