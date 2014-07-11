@@ -21,7 +21,6 @@
            fetch="https://github.com/Schischu" />
 
   <remote name="matt4321"
-           remote="matt4321"
            fetch="https://github.com/matt4321" />
 
   <default revision="refs/tags/android-4.4.4_r1"
