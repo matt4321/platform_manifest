@@ -622,6 +622,7 @@
   <project path="vendor/nvidia/wingray" name="android_vendor_nvidia_wingray" remote="schischu" revision_old="android-4.3" revision="ad92d00e4ded99b48a7c3d92da83cf533dd1cecb" />
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
-
-  <project path="platform_manifest" name="matt4321/platform_manifest" remote="matt4321" revision="kitkat" />
+  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="kitkat" />
+  
+  <!-- <project path="platform_manifest" name="matt4321/platform_manifest" remote="matt4321" revision="kitkat" /> -->
 </manifest>
