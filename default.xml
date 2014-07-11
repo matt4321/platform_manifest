@@ -6,8 +6,7 @@
            review="https://android-review.googlesource.com/" />
            
   <remote  name="matt4321"
-           fetch="https://github.com/"
-           review="gerrit.aokp.co" />
+           fetch="https://github.com/" />
 
   <remote  name="aokp"
            fetch="https://github.com/"
