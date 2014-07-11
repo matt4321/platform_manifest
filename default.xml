@@ -617,5 +617,8 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
+  <!-- extras -->
+  <project path="device/moto/wingray" name="Schischu/android_device_moto_wingray" remote="Schischu" revision="cm-11.0" />
+
   <project path="platform_manifest" name="matt4321/platform_manifest" remote="matt4321" revision="kitkat" />
 </manifest>
