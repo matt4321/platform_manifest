@@ -4,9 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-           
-  <!-- <remote  name="matt4321"
-           fetch="https://github.com/" /> -->
 
   <remote  name="aokp"
            fetch="https://github.com/"
@@ -19,10 +16,6 @@
   <remote name="omni"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
-           
-  <remote name="schischu"
-           fetch="https://github.com/Schischu" />
-
 
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
@@ -83,8 +76,6 @@
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
   <project path="device/htc/m8" name="AOKP/device_htc_m8" remote="aokp" revision="kitkat" groups="notdefault,device,m8" />
   <project path="device/motorola/moto_msm8960dt" name="AOKP/device_motorola_moto_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
-  <project path="device/moto/wingray" name="Schischu/android_device_moto_wingray" remote="github" revision="cm-11.0" />
-  <project path="device/moto/stingray-kernel" name="xoom-ElementalX" remote="schischu" revision_old="master" revision="f2b6e9294c2cc5beb24f7b5c931556521defea28" />
   <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,find7,n1" />
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
   <project path="device/oppo/find7" name="AOKP/device_oppo_find7" remote="aokp" revision="kitkat" groups="notdefault,device,find7" />
@@ -617,12 +608,8 @@
   <project path="vendor/semc" name="AOKP/vendor_semc" remote="aokp" revision="kitkat" groups="notdefault,vendor,semc" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
-  <project path="vendor/broadcom/wingray" name="android_vendor_broadcom_wingray" remote="schischu" revision_old="android-4.3" revision="f7bfe7dccbd0ed8726faf79549d2dafa19f9ce8c" />
-  <project path="vendor/moto/wingray" name="android_vendor_moto_wingray" remote="schischu" revision_old="android-4.3" revision="c6f37a9f4dd3055bd921f9fd90016f1d5ec30407" />
-  <project path="vendor/nvidia/wingray" name="android_vendor_nvidia_wingray" remote="schischu" revision_old="android-4.3" revision="ad92d00e4ded99b48a7c3d92da83cf533dd1cecb" />
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
+
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="kitkat" />
-  
-  <!-- <project path="platform_manifest" name="matt4321/platform_manifest" remote="matt4321" revision="kitkat" /> -->
 </manifest>
